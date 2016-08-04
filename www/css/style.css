@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'SameSameButDifferent';
-    src: url('fonts/SameSameButDifferent.ttf') format('truetype');
+    src: url('../fonts/SameSameButDifferent.ttf') format('truetype');
 }
 @font-face {
     font-family: 'DIM';
-    src: url('fonts/DIN Medium.ttf') format('truetype');
+    src: url('../fonts/DIN Medium.ttf') format('truetype');
 }
 @font-face {
     font-family: 'TitilliumText22L001';
-    src: url('fonts/TitilliumText22L001.otf') format('opentype');
+    src: url('../fonts/TitilliumText22L001.otf') format('opentype');
 }
 body {
     background-color: #1F2125;
@@ -28,7 +28,7 @@ h1 {
     font-family: 'SameSameButDifferent';
     font-size: 3.5em;
     background-repeat: no-repeat;
-    background-image: url(img/hangar.png);
+    background-image: url('../img/hangar.png');
     background-size: 56px 56px;
     background-position: initial;
     background-position-y: 9px;
@@ -151,10 +151,10 @@ tr:nth-child(even) {
     padding: 0;
     position: relative;
     vertical-align: middle;
-    background-image: url('img/play.png');
+    background-image: url('../img/play.png');
 }
 .hangar {
-    background-image: url('img/hangar.png');
+    background-image: url('../img/hangar.png');
     background: 0 0;
     border-width: 0;
     width: 54px;
@@ -302,7 +302,7 @@ tr:nth-child(even) {
     padding: 0;
     position: relative;
     vertical-align: middle;
-    background-image: url('img/next.png');
+    background-image: url('../img/next.png');
     margin: 60px 30px 30px
 }
 .btn-next{
