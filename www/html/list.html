@@ -1,0 +1,16 @@
+<form ng-submit="find(query)">
+    <input type="search" results="5" name="s" placeholder="Search Music" ng-model="query" />
+</form>
+
+<table>
+    <tr ng-repeat="song in songs">
+        <td>
+            <div class="song-media"><a ng-href="#/song/{{song.songname}}" class="song-media-content">
+                    <div class="song-overlay center"><button class="btn-playpause">Play</button></div></a></div></td>
+        <td><div class="song-title"><a ng-href="#/song/{{song.songname}}">{{song.songname}}</a></div>
+            <div class="song-author"><a ng-href="#/song/{{song.songname}}">{{song.artistname}}</a></div>
+        </td>
+        <td><div class="song-day"><a ng-href="#/song/{{song.songname}}" class="song-media-content"><div class="song-overlay center"><button class="btn-day">Today</button><button class="btn-day">Friday</button></div></a></div>
+        </td>
+    </tr>
+</table>
